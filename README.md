@@ -88,19 +88,19 @@ npm install
 ### Start Local Development Server
 Runs the development server with live reload against your target Dynatrace environment:
 ```bash
-npm run start
+npx dt-app dev 
 ```
 
 ### Build for Production
 Compiles and bundles the application into the `dist/` directory:
 ```bash
-npm run build
+npx dt-app build
 ```
 
 ### Deploy to Dynatrace
 Builds and deploys the app directly to your configured Dynatrace tenant:
 ```bash
-npm run deploy
+npx dt-app deploy
 ```
 
 ---
