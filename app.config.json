@@ -1,0 +1,20 @@
+{
+  "$schema": "./.dt-app/app.config.schema.json",
+  "environmentUrl": "https://nlq64817.apps.dynatrace.com/",
+  "app": {
+    "name": "RotaDash",
+    "version": "0.0.14",
+    "description": "NOC Dashboard Rotator for Dynatrace",
+    "id": "my.rota.dash",
+    "scopes": [
+      { "name": "storage:logs:read", "comment": "default template" },
+      { "name": "storage:buckets:read", "comment": "default template" },
+      { "name": "document:documents:read", "comment": "Read permissions for Dynatrace dashboard documents" },
+      { "name": "state:app-states:read", "comment": "Read permissions for shared rotator configuration" },
+      { "name": "state:app-states:write", "comment": "Write permissions for shared rotator configuration" },
+      { "name": "state:user-app-states:read", "comment": "Read permissions for personal user rotator configuration" },
+      { "name": "state:user-app-states:write", "comment": "Write permissions for personal user rotator configuration" },
+      { "name": "app-engine:apps:install", "comment": "Read permissions for user information" }
+    ]
+  }
+}
