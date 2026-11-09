@@ -117,8 +117,6 @@ rota-dash/
 │   ├── main.tsx              # AppRoot and React DOM mount
 │   └── tsconfig.json         # TypeScript configuration
 ├── package.json              # Scripts and dependencies
-├── steps.md                  # Email-ready step-by-step user guide
-├── CLIENT_GUIDE.md           # Client documentation
 └── README.md                 # Technical project documentation
 ```
 
